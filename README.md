@@ -12,9 +12,9 @@ The goal of this talk is to set you up with Neovim without losing beloved featur
 
 ## Talk Overview
 
-- **Introduction to Neovim (~5 mins):** core offering, pros and cons, lua language for pythonistas
-- **Neovim for Python Development (~20 mins):** plugin manager, navigation, terminal integration, lsp, testing
-- **Wrap up (~5 mins):** brief look at my personal config and learning resources to continue your journey
+- **Introduction to Neovim:** core offering, pros and cons, lua language for pythonistas
+- **Neovim for Python Development:** plugin manager, navigation, terminal integration, lsp, testing
+- **Wrap up:** brief look at my personal config and learning resources to continue your journey
 
 ## Prerequisites
 
