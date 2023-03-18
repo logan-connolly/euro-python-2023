@@ -34,7 +34,7 @@ make run
 ⬢ [Docker] nvim
 ```
 
-Checkout [nvim](./nvim/README.md) README to find out more about the configuration structure and available keybinds.
+Checkout [nvim](./nvim) README to find out more about the configuration structure and available keybinds.
 
 ## Debugging
 
