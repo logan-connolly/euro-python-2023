@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  nvim:
+    # target name and tag of image
+    image: lvconnolly/euro-python-2023:dev
+
+    # build from the current directory
+    build:
+      context: .
+
+    # mount in configuration for editing
+    volumes:
+      - $PWD/nvim:/root/.config/nvim
+
+    # start container with fish shell
+    command: /usr/bin/fish
