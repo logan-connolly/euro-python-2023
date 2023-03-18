@@ -1,0 +1,5 @@
+# hpsort project
+hpsort/.venv/
+hpsort/src/hpsort.egg-info/
+hpsort/.pytest_cache
+hpsort/.envrc
