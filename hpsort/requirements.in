@@ -1,0 +1,6 @@
+# install hpsort
+-e .
+
+# external deps
+pytest
+rich
