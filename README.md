@@ -21,6 +21,11 @@ The goal of this talk is to set you up with Neovim without losing beloved featur
 - [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/): if you want to run Neovim from a preconfigured container
 - [vim keybindings](https://vim.rtorr.com/): knowledge of basic movements and commands should be fine
 
+## Project Structure
+
+- [hpsort](./hpsort): example Python project to test editor functionality
+- [nvim](./nvim): base configuration that is loaded in the container
+
 ## Usage
 
 ```shell
