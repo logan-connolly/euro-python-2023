@@ -20,3 +20,22 @@ The goal of this talk is to set you up with Neovim without losing beloved featur
 
 - [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/): if you want to run Neovim from a preconfigured container
 - [vim keybindings](https://vim.rtorr.com/): knowledge of basic movements and commands should be fine
+
+## Usage
+
+```shell
+# Run the container environment
+make run
+
+# Start neovim which install plugins and then exit out with `:qa`
+⬢ [Docker] nvim
+
+# Start neovim again - You should be fully setup!
+⬢ [Docker] nvim
+```
+
+Checkout [nvim](./nvim/README.md) README to find out more about the configuration structure and available keybinds.
+
+## Debugging
+
+- Sometimes the language server is not completely setup. So run `:Mason` command to prompt installation.
