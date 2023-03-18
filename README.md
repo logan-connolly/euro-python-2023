@@ -38,4 +38,4 @@ Checkout [nvim](./nvim/README.md) README to find out more about the configuratio
 
 ## Debugging
 
-- Sometimes the language server is not completely setup. So run `:Mason` command to prompt installation.
+- **Spawning language server with cmd: `pyright-langserver` failed. The language server is either not installed, missing from PATH, or not exeecutable.**: sometimes the language server is not completely setup. So run `:Mason` command to prompt installation. After the tools are installed, you can hit `q` to quit.
