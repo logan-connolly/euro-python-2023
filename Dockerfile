@@ -38,6 +38,10 @@ RUN ln -sf /usr/share/zoneinfo/Europe/Prague /etc/localtime
 RUN mkdir -p /root/.config/nvim
 COPY ./nvim/ /root/.config/nvim/
 
+# Copy Fish configuration file
+RUN mkdir -p /root/.config/fish
+COPY ./config.fish /root/.config/fish/config.fish
+
 # Copy in sample python script.
 COPY ./hpsort /usr/src/hpsort
 
