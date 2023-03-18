@@ -16,7 +16,7 @@ The goal of this talk is to set you up with Neovim without losing beloved featur
 - **Neovim for Python Development:** plugin manager, navigation, terminal integration, lsp, testing
 - **Wrap up:** brief look at my personal config and learning resources to continue your journey
 
-## Prerequisites
+## Requirements
 
 - [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/): if you want to run Neovim from a preconfigured container
 - [vim keybindings](https://vim.rtorr.com/): knowledge of basic movements and commands should be fine
