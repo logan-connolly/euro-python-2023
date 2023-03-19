@@ -6,7 +6,7 @@
 require("user.core.options")
 
 -- load in core neovim keybinds
-require("user.core.options")
+require("user.core.keybinds")
 
 -- load in core neovim autocommands
 require("user.core.autocommands")
