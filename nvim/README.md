@@ -22,6 +22,10 @@ Here are some custom keybinds that were added to the configuration (to see all o
 
 - `gcc`: for commenting out a line
 
+**Terminal:**
+
+- `\\`: to toggle the floating terminal instance
+
 **LSP:**
 
 - `K`: hover over a symbol and get help documentation
