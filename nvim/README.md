@@ -15,12 +15,15 @@ Here are some custom keybinds that were added to the configuration (to see all o
 **Navigation:**
 
 - `<Space>f`: prompts which key for navigation like keybinds
-- `<Space>t`: prompts which key for telescope testing
 - `]` or `[`: prompts whick key for bracket navigation
 
 **Editor:**
 
 - `gcc`: for commenting out a line
+
+**Testing:**
+
+- `<Space>t`: prompts which key for testing commands
 
 **Terminal:**
 
