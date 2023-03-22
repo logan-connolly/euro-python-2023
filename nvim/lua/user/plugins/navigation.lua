@@ -16,6 +16,8 @@ return {
 			{ "nvim-lua/plenary.nvim" },
 			-- icons to show file types
 			{ "nvim-tree/nvim-web-devicons" },
+			-- file browser extension
+			{ "nvim-telescope/telescope-file-browser.nvim" },
 		},
 		keys = {
 			{ "<leader>ff", "<cmd> Telescope find_files <CR>", desc = "Search Files" },
@@ -26,7 +28,21 @@ return {
 			{ "<leader>fo", "<cmd> Telescope oldfiles <CR>", desc = "Search Recent" },
 			{ "<leader>fk", "<cmd> Telescope keymaps <CR>", desc = "Show Keys" },
 			{ "<leader>fg", "<cmd> Telescope git_status <CR>", desc = "Show Git Status" },
+			{
+				"-",
+				function()
+					require("telescope").extensions.file_browser.file_browser({
+						cwd = require("telescope.utils").buffer_dir(),
+					})
+				end,
+				desc = "Open file browser in buffer dir (vinegar)",
+			},
 		},
+		config = function()
+			local telescope = require("telescope")
+			telescope.setup({})
+			telescope.load_extension("file_browser")
+		end,
 	},
 
 	-- Installs Mini Bracketed module which allows you to
