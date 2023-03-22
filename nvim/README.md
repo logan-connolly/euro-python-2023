@@ -16,6 +16,7 @@ Here are some custom keybinds that were added to the configuration (to see all o
 
 - `<Space>f`: prompts which key for navigation like keybinds
 - `]` or `[`: prompts whick key for bracket navigation
+- `-`: opens telescope file browser from current buffer dir
 
 **Editor:**
 
