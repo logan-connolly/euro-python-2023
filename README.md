@@ -1,6 +1,6 @@
-# euro-python-2023
+# pde
 
-🐍 Neovim: your Personalized IDE
+> Neovim: your personalized development environment (pde) for Python
 
 ## Abstract
 
