@@ -14,7 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Settings for the plugin manager.
 require("lazy").setup({
-
 	spec = {
 		-- import plugin cofigurations from this module
 		{ import = "user.plugins" },
