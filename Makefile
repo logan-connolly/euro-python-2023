@@ -13,6 +13,9 @@ login: # Login to Docker Hub
 build: # Build docker image locally
 	docker-compose build
 
+download: # Pull down image from Docker Hub
+	docker-compose pull
+
 publish: # Publish  image to Docker Hub
 	docker-compose push
 
