@@ -10,9 +10,9 @@ Initialize your environment for development:
 # initialize a virtual environment
 python -m venv .venv
 
-# activate environment with bash or fish
+# activate environment with bash (or fish)
 source .venv/bin/activate
-source .venv/bin/activate.fish
+# source .venv/bin/activate.fish
 
 # update pip wheel and setuptools
 pip install -U pip wheel setuptools
